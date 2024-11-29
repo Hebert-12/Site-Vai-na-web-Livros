@@ -1,0 +1,91 @@
+.Formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 110vh;
+
+    @media (max-width: 1000px) {
+        height: 120vh;
+    }
+
+    p{
+        font-size: 30px;
+
+        @media (max-width: 1000px) {
+            text-align: center;
+        }
+    }
+
+    form{
+        border: solid 2px rgba(0, 86, 149, 1);
+        border-radius: 15px;
+        height: 99vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 35vw;
+        align-items: center;
+
+        @media (max-width: 980px) {
+            width: 50vw;
+        }
+
+        @media (max-width: 700px) {
+            width: 70%;
+        }
+
+        @media (max-width: 400px) {
+            width: 90%;
+            height: 85vh;
+        }
+    }
+}
+
+.FormTitulo{
+    display: flex;
+    justify-content: space-around;
+    width: 26vw;
+    align-items: center;
+    color: rgba(0, 86, 149, 1);
+
+    @media (max-width: 840px) {
+        width: 80%;
+    }
+
+    h2{
+        font-size: 2vw;
+
+        @media (max-width: 840px) {
+            font-size: 20px;
+        }
+    }
+}
+
+input{
+    width: 28vw;
+    height: 6vh;
+    border: solid rgba(0, 86, 149, 1);
+    border-radius: 15px;
+    padding-left: 10px;
+
+    @media (max-width: 980px) {
+        width: 40vw;
+    }
+
+    @media (max-width: 700px) {
+        width: 60vw;
+    }
+    
+    &::placeholder{
+        color: black;
+    }
+}
+
+.Enviar{
+    color: white;
+    background-color: rgba(0, 86, 149, 1);
+    width: 15vw;
+    height: 7vh;
+    cursor: pointer;
+}

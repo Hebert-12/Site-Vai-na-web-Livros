@@ -1,0 +1,97 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+    color: white;
+    height: 15vh;
+
+    @media (max-width:700px) {
+        flex-direction: column;
+    }
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    justify-content: space-between;
+    font-size: 2.3vh;
+    img{
+        display: flex;
+        height: 7vh;
+        padding-right: 1vw;
+    }
+}
+
+.BoxLink{
+    width: 40vw;
+
+    @media (max-width:700px) {
+        width: 90%;
+    }
+
+    @media (max-width: 390px) {
+        width: 100%;
+    }
+
+    
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        a{
+            font-size: 3vh;
+            color: white;
+
+            @media (max-width: 390px) {
+                font-size: 5vw;
+            }
+        }
+    }
+}
+
+.Button{
+    
+    border: solid 2px white;
+    border-radius: 20px;
+    width: 15vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    padding-left: 1vw;
+
+    @media (max-width:700px) {
+        display: none;
+    }
+
+    button{
+        background-color: transparent;
+        border: none;
+        margin-right: 20px;
+        height: 5vh;
+        cursor: pointer;
+
+        img{
+            width: 1.5vw;
+        }
+    }
+
+    input{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 17px;
+        width: 80%;
+
+        &::placeholder {
+            color: white;
+            border: none;
+            font-size: 2vh;
+        }
+    }
+}

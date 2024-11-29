@@ -1,0 +1,48 @@
+.Geral{
+    height: 100vh;
+
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        font-size: 30px;
+    }
+}
+
+.Galeria{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    @media (max-width: 550px) {
+        flex-direction: column;
+    }
+    
+    article{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        cursor: pointer;
+        border: 3px solid rgba(0, 86, 149, 1);
+        height: 33vh;
+        width: 180px;
+        border-radius: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 15px;
+        text-align: center;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 10vh;
+        }
+    }
+
+    img {
+        width: 100px;
+    }
+}

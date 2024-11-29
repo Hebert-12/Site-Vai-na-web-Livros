@@ -1,0 +1,52 @@
+footer{
+    background: rgba(0, 86, 149, 1);
+    height: 15vh;
+    color: white;
+}
+
+.BoxFooter{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (max-width:550px) {
+        height: 10vh;
+        flex-direction: column;
+    }
+
+    img{
+        width: 3vw;
+    }
+
+    p{
+        width: 70vw;
+        font-size: 2vw;
+
+        @media (max-width:550px) {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            font-size: 3vw;
+        }
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        width: 20vw;
+    }
+}
+
+.Borda{
+    height: 6vh;
+    background: rgba(35, 32, 32, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 450px){
+        font-size: 3vw;
+    }
+}

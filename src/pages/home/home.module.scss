@@ -1,0 +1,100 @@
+.Topo {
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+    background-image: url(../../assets/img/topo.png);
+    background-size: cover;
+    background-position: center;
+
+    @media (max-width:550px) {
+        height: 55vh;
+    }
+
+    h2{
+        margin-left: 6%;
+        width: 25vw;
+        font-size: 3vw;
+
+        @media (max-width:550px) {
+            font-size: 5vw;
+            width: 40vw;
+        }
+    }
+}
+
+.PorqueDoar {
+    display: flex;
+    align-items: end;
+    color: rgba(0, 86, 149, 1);
+    font-size: 3vw;
+    height: 15vh;
+    width: 30vw;    
+    justify-content: space-around;
+    margin-left: 1vw;
+    
+    @media (max-width:550px) {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 5vw;
+    }
+}   
+
+.BoxCards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 85vh;
+
+    @media (max-width:700px) {
+        height: 70vh;
+    }
+
+    @media (max-width:550px) {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+
+    img{
+        width: 5vw;
+
+        @media (max-width: 900px) {
+            width: 8vw;
+        }
+    }
+
+    article{
+        background: rgba(1, 87, 148, 0.3);
+        width: 20vw;
+        height: 48vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 8px;
+
+        @media (max-width:700px) {
+            height: 40vh;
+        }
+
+        @media (max-width:550px) {
+            width: 40vw;
+            height: 20vh;
+        }
+    
+
+        p{
+            text-align: center;
+            font-size: 1.8vw;
+            width: 80%;
+
+            @media (max-width:550px) {
+                width: 35vw;
+                font-size: 2.5vw;
+            }
+        }
+    }
+}
