@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Link} from "react-router-dom"
 import Busca from "../../assets/img/busca.png"
 import Home from "../../pages/home/home"
 import LivrosDoados from "../../pages/livrosDoados/livrosDoados"
-import QueroDoar from "../../pages/queroDoar/QueroDoar"
+import QueroDoar from "../../pages/queroDoar/queroDoar"
 import S from "./header.module.scss"
 
 export default function Header (){
