@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 import S from "./queroDoar.module.scss"
 import Livro from "../../assets/img/livro.png"
 import { useState } from "react"
 import axios from "axios"
 
-export default function QueroDoar(){
+export default function QueroDoar()
 
     const [titulo, setTitulo] = useState("")
     const [categoria, setCategoria] = useState("")
@@ -64,7 +63,7 @@ export default function QueroDoar(){
             </form>
         </section>
     )
-=======
+
 import S from "./queroDoar.module.scss"
 import Livro from "../../assets/img/livro.png"
 import { useState } from "react"
@@ -131,5 +130,4 @@ export default function QueroDoar(){
             </form>
         </section>
     )
->>>>>>> 5b424e0abdd03a37fd8d2f082d853e4f232cc913
 }
